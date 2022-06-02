@@ -1,0 +1,9 @@
+@import "./prefix-mixin.scss";
+
+@include addPrefix("my-prefix-") {
+  &disabled {
+    pointer-events: none;
+    color: gray;
+    background-color: transparent;
+  }
+}
